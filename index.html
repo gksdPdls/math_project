@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Color Match Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Color Match Puzzle</h1>
+
+  <div class="color-row">
+
+    <div class="color-box">
+      <h2>Target Color</h2>
+      <div id="targetColor"></div>
+    </div>
+
+    <div class="color-box">
+      <h2>Your Color</h2>
+      <div id="playerColor"></div>
+    </div>
+
+  </div>
+
+  <!-- RGB Sliders -->
+  <h3>Adjust Using RGB</h3>
+  <div class="slider-group">
+    <label>R <input type="range" min="0" max="255" value="0" id="rSlider"></label>
+    <label>G <input type="range" min="0" max="255" value="0" id="gSlider"></label>
+    <label>B <input type="range" min="0" max="255" value="0" id="bSlider"></label>
+  </div>
+
+  <!-- HSV Sliders -->
+  <h3>Adjust Using HSV</h3>
+  <div class="slider-group">
+    <label>H <input type="range" min="0" max="360" value="0" id="hSlider"></label>
+    <label>S <input type="range" min="0" max="100" value="0" id="sSlider"></label>
+    <label>V <input type="range" min="0" max="100" value="0" id="vSlider"></label>
+  </div>
+
+  <h2 id="statusText">Move the sliders to match the color!</h2>
+
+  <button id="checkBtn">Check Match</button>
+  <button id="nextBtn" disabled>Next Color</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
