@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Color Match Puzzle
 
 An interactive color matching game that uses linear algebra concepts to compare colors.
