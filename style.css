@@ -6,6 +6,7 @@ body {
   padding-bottom: 50px;
 }
 
+/* boxes for colors */
 .color-box {
   margin: 20px auto;
 }
@@ -19,6 +20,7 @@ body {
   border: 4px solid white;
 }
 
+/* sliders */
 .slider-group {
   margin: 15px;
 }
@@ -36,6 +38,7 @@ button {
   border-radius: 8px;
 }
 
+/* side by side layout */
 .color-row {
   display: flex;
   justify-content: center;
