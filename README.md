@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Color Match Puzzle
 
 An interactive color matching game that uses linear algebra concepts to compare colors.
@@ -49,3 +50,6 @@ No external libraries required.
 This project was created for an Interactive Multimedia & Design course and demonstrates how linear algebra can be applied to visual systems and user interaction.
 
 Group members: Grace Baker, Jennifer Nguyen, Ye In Han
+=======
+ReadMe
+>>>>>>> 187dddc234b6f62d0c669b927d9ea7cb26fbfa2a
